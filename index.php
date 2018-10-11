@@ -1,4 +1,6 @@
 <?php
+http_response_code(404);
+exit();
 header('Content-Type: text/html; charset=utf-8');
 // gather directory info -> link, name DONE!
 // display it in neet fasion DONE
